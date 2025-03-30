@@ -1,0 +1,253 @@
+body{
+    font-family: "Ubuntu", serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: auto;
+   
+    
+}
+.landing-page{
+    background-image:radial-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(Netflix/Netflix-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 120px;
+   
+}
+.signin{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 75px;
+}
+.lang{
+    width: 120px;
+    height: 32px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+   padding-left: 0.5rem;
+   margin-right: 0.5rem;
+}
+
+.main{
+   
+    height: 460px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 2rem 2rem;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.center h1{
+    width: 580px;
+    height: 100px;
+    font-size: 3.5rem;
+    
+    font-weight: 900;
+    
+}
+.center p{
+    font-size: 19px;
+    font-weight: 600;
+    
+}
+.email p{
+    width: 590px;
+    
+    font-size: 16px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 54px;
+    width: 380px;
+    padding: 0;
+    border-radius: 5px;
+   border: 1px solid grey;
+    padding-left: 1rem;
+    background-color: transparent;
+}
+input::placeholder{
+    font-size: 1rem;
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+
+.btn{
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.btn i{
+    margin-left: 0.5rem;
+}
+.separation{
+    margin-top: 100px;
+    height: 100px;
+    
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    border-top: 0.25rem solid red;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+    display: flex;
+    
+}
+
+.page{
+
+    height: fit-content;
+    width: 100%;
+}
+.page h2{
+    margin-left: 100px;
+}
+.page ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.page ul li{
+   
+    height: 208px;
+    padding: 6.4px 22px 6.4px 0;
+    margin-bottom: 2rem;
+    
+}
+
+.movie{
+    border-radius: 5px;
+    height: 240px;
+   
+}
+.movie:hover{
+    height: 260px;
+
+}
+.num{
+    width: 50px;
+    height: 80px;
+    line-height: 1;
+    display: inline-block;
+    font-size: 5rem;
+    position: relative;
+    bottom: 28px;
+    left: 38px;
+    font-weight: 700;
+    color: rgb(65, 65, 65);
+    -webkit-text-stroke: 0.2rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0,0.5);
+    
+    
+}
+.cont{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   flex-wrap: wrap;
+}
+.reasons{
+    height: 290px;
+    width: 230px;
+    background: linear-gradient(217deg, rgba(59, 87, 171, 0.8), rgba(8, 1, 1, 0.545) 70.71%),
+            linear-gradient(127deg, rgba(129, 54, 203, 0.8), rgba(0, 3, 0, 0.534) 70.71%),
+            linear-gradient(336deg, rgba(154, 72, 199, 0.8), rgba(1, 1, 14, 0.575) 70.71%);
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+.head h2{
+    margin-left:100px;
+    margin-top:50px;
+}
+.reasons i{
+    position: relative;
+    top: 6rem;
+    left: 11rem;
+    font-size: 3rem;
+}
+.reasons p{
+    opacity: 0.7;
+}
+.faq{
+    margin-top: 4rem;
+    margin-left: 100px;
+}
+.faq ul li{
+    width: 85%;
+    height: 80px;
+    background-color: rgb(66, 66, 66);
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-between;
+}
+.footer{
+    margin-top: 5rem;
+    
+}
+.footer ul{
+    
+    display: grid;
+    list-style-type: none;
+    height: 180px;
+    width: 90%;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: 615px 615px 150px;
+    
+}
+
+.footer ul li a{
+    color: white;
+    opacity: 0.7;
+    
+}
+.part{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center
+}
+.line{
+    height:30%;
+    width:90%;
+    border-top: 1px solid white;
+    opacity:0.4;
+}
